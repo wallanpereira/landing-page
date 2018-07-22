@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
-  "author": "Wallan Pereira",
-  "license": "ISC",
+  "author": "Wallan Pereira <wallanpereira09@gmail.com>",
+  "license": "MIT License",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
