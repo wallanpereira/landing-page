@@ -1,0 +1,37 @@
+//===============================================
+//                                Paleta de Cores
+//===============================================
+/*
+    Exemplo de chamadas:
+
+    background-color: map-get($colors, 'nome-da-cor');
+    @extend %bg-nome-da-cor
+
+*/
+
+$colors: ( 
+    'primary': #770DDB,
+    'secundary': #C845AA,
+    'ocean': #4ba29f,
+    'gray': #7280a4,
+    'black': #000,
+    'white': #fff,
+    'transparent': transparent
+);
+
+//===============================================
+//                                    Font Family
+//===============================================
+/*
+	Exemplo de chamadas:
+
+	font-family: roboto-estilo-desejado
+	@extend %roboto-estilo-desejado
+*/
+
+$fonts: ( 
+    'RobotoSlab-Bold': 'RobotoSlab-Bold',
+    'RobotoSlab-Regular': 'RobotoSlab-Regular',
+    'Roboto-Light': 'Roboto-Light',
+    'Roboto-Thin': 'Roboto-Thin'
+);
