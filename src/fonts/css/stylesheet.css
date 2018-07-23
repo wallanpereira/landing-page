@@ -9,11 +9,11 @@
 }
 
 @font-face {
-    font-family: 'roboto-light';
+    font-family: 'robotoslab-light';
     src: url('../robotoslab-light.ttf');
 }
 
 @font-face {
-    font-family: 'roboto-thin';
+    font-family: 'robotoslab-thin';
     src: url('../robotoslab-thin.ttf');
 }
