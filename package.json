@@ -1,12 +1,12 @@
 {
     "name": "Project",
-    "description": "Description project",
+    "description": "Appx - Landing Page",
     "main": "index.js",
     "scripts": {
         "test": "echo \\\"Error: no test specified\\\" && exit 1"
     },
-    "author": "Victor Marques",
-    "license": "ISC",
+    "author": "Wallan Pereira <wallanpereira09@gmail.com>",
+    "license": "MIT License",
     "dependencies": {
         "babel-core": "^6.26.3",
         "babel-preset-env": "^1.7.0",
