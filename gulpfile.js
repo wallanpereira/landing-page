@@ -79,7 +79,7 @@ gulp.task('html', () =>
 //                               Stylesheet | CSS
 //===============================================
 gulp.task('sass-lint', function() {
-    return gulp.src( paths.src.css.all )
+    return gulp.src( paths.src.css )
         .pipe(sassLint({ configFile: '.sass-lint.yml' }))
         .pipe(sassLint.format())
         .pipe(sassLint.failOnError())
@@ -95,7 +95,6 @@ gulp.task('css', function() {
         .pipe(concat('bundle.min.css'))
         .pipe(gulp.dest( paths.dest.css ))
 })
-
 
 //===============================================
 //                                JavaScript | JS
