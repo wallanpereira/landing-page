@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+
+    &.title-app {
+        background: thistle;
+    }
+
+    &.text-app {
+        line-height: 1.5em;
+    }
+}
