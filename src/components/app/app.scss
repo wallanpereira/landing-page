@@ -1,0 +1,45 @@
+@import '../../scss/_deps';
+
+.app-component {
+    background-image: linear-gradient(to top left, #c845aa, #770ddb);
+
+    .box-content {
+        .description-app {
+            &.title-app {
+                @extend %robotoslab-thin;
+            }
+
+            &.text-app {
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .btn-app {
+        @extend .btn;
+        @extend .uppercase;
+        border: 2px solid map-get($colors, 'white');
+        padding: 12px 35px;
+        border-radius: 5px;
+        margin-top: 50px;
+
+        &:hover {
+            color: map-get($colors, 'black');
+            background-color: map-get($colors, 'white-bege');
+        }
+    }
+
+    // Particles
+    // canvas {
+    //     display: block;
+    //     vertical-align: bottom;
+    // }
+
+    // #particles-js {
+    //     height: 100%;
+    //     width: 100%;
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    // }
+}
