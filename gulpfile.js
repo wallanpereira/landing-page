@@ -1,5 +1,5 @@
 var gulp            = require('gulp');
-/***** Global *****/
+/*************** Global ***************/
 var concat          = require('gulp-concat');
 var browserSync     = require('browser-sync').create();
 var watch           = require('gulp-watch');
@@ -8,24 +8,24 @@ var flatten         = require('gulp-flatten');
 var plumber         = require('gulp-plumber');
 var gulpUtil        = require('gulp-util');
 var runSequence     = require('run-sequence');
-/***** CSS *****/
+/*************** CSS ***************/
 var postcss         = require('gulp-postcss');
 var cssnext         = require('postcss-cssnext');
 var sass            = require('gulp-sass');
 var groupQueries    = require('gulp-group-css-media-queries');
 var sassLint        = require('gulp-sass-lint');
 var cleanCSS        = require('gulp-clean-css');
-/***** JS *****/
+/*************** JS ***************/
 var merge2          = require('merge2');
 var babel           = require('gulp-babel');
 var uglify          = require('gulp-uglify');
-/***** HTML *****/
+/*************** HTML ***************/
 var fileinclude     = require('gulp-file-include');
 var htmlBeautify    = require('gulp-html-beautify');
 var htmlmin         = require('gulp-htmlmin');
-/***** Images *****/
+/*************** Images ***************/
 var imagemin        = require('gulp-imagemin');
-/***** Paths *****/
+/*************** Paths ***************/
 var paths           = require('./gulp.paths.json');
 
 
@@ -79,7 +79,7 @@ gulp.task('html', () =>
 //                               Stylesheet | CSS
 //===============================================
 gulp.task('sass-lint', function() {
-    return gulp.src( paths.src.css )
+    return gulp.src( paths.src.css.all )
         .pipe(sassLint({ configFile: '.sass-lint.yml' }))
         .pipe(sassLint.format())
         .pipe(sassLint.failOnError())
@@ -95,6 +95,7 @@ gulp.task('css', function() {
         .pipe(concat('bundle.min.css'))
         .pipe(gulp.dest( paths.dest.css ))
 })
+
 
 //===============================================
 //                                JavaScript | JS
