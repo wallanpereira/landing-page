@@ -1,6 +1,6 @@
 {
     "name": "Project",
-    "description": "Appx - Landing Page",
+    "description": "Appx Lander - Landing Page",
     "main": "index.js",
     "scripts": {
         "test": "echo \\\"Error: no test specified\\\" && exit 1"
