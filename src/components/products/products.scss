@@ -2,32 +2,33 @@
 
 .products-component {
 
-    .info {
-        display: flex;
-        padding-bottom: 30px;
+    .content {
+        border: 2px solid map-get($colors, 'gray-dark');
+        box-shadow: 0 5px 5px map-get($colors, 'gray');
 
-        &:last-child {
-            padding-bottom: 0;
+        .info {
+            display: flex;
+            margin-bottom: 35px;
         }
-    }
-    
-    .icon {
-        color: map-get($colors, 'primary');
-        background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
-        background-clip: text;
-        padding-right: 20px;
-        padding-top: 5px;
-    }
+        
+        .icon {
+            color: map-get($colors, 'primary');
+            background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
+            background-clip: text;
+            padding-right: 20px;
+            padding-top: 5px;
+        }
 
-    .box-info {
-        @extend %robotoslab-regular;
-        @extend .cl-gray;
-        line-height: 1.5;
+        .info-description {
+            @extend %robotoslab-regular;
+            @extend .cl-gray;
+            line-height: 1.5;
 
-        .title {
-            @extend %robotoslab-light;
-            @extend .cl-gray-dark;
-            margin-bottom: 10px;
+            .title {
+                @extend %robotoslab-light;
+                @extend .cl-gray-dark;
+                margin-bottom: 10px;
+            }
         }
     }
 }
