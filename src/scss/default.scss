@@ -29,5 +29,45 @@
 }
 
 //===============================================
+//                             Tamanhos de ícone
+//===============================================
+
+
+.icon-smaller:before {
+    font-size: 12px;
+    height: 12px;
+    width: 12px;
+    padding: 3px;
+}
+
+.icon-small:before {
+    font-size: 22px;
+    height: 22px;
+    width: 22px;
+    padding: 3px;
+}
+
+.icon-medium:before {
+    font-size: 32px;
+    height: 32px;
+    width: 32px;
+    padding: 3px;
+}
+
+.icon-big:before {
+    font-size: 42px;
+    height: 42px;
+    width: 42px;
+    padding: 3px;
+}
+
+.icon-bigger:before {
+    font-size: 52px;
+    height: 52px;
+    width: 52px;
+    padding: 3px;
+}
+
+//===============================================
 //                                         Button
 //===============================================

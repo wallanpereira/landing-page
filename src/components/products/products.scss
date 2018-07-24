@@ -1,0 +1,15 @@
+@import '../../scss/_deps';
+
+.products-component {
+
+    .info {
+        display: flex;
+    }
+    
+    .icon {
+        color: map-get($colors, 'primary');
+        background-image: linear-gradient(to bottom right, #C845AA, #770DDB);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
