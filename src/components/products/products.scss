@@ -1,16 +1,11 @@
 @import '../../scss/_deps';
-
 .products-component {
-
     .content {
-        border: 2px solid map-get($colors, 'gray-dark');
-        box-shadow: 0 5px 5px map-get($colors, 'gray');
-
+        box-shadow: 0 8px 16px lighten(map-get($colors, 'gray'), 25%);
         .info {
             display: flex;
             margin-bottom: 35px;
         }
-        
         .icon {
             color: map-get($colors, 'primary');
             background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
@@ -18,12 +13,10 @@
             padding-right: 20px;
             padding-top: 5px;
         }
-
         .info-description {
             @extend %robotoslab-regular;
             @extend .cl-gray;
             line-height: 1.5;
-
             .title {
                 @extend %robotoslab-light;
                 @extend .cl-gray-dark;
