@@ -88,7 +88,25 @@
 .button-pattern {
     @extend .cl-white;
     background-image: linear-gradient(to top left, #c845aa, #770ddb);
-    padding: 10px 40px;
+    padding: 15px 40px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+//===============================================
+//                      TITULO AND TEXTO DE SEÇÃO
+//===============================================
+
+.title-section {
+    @extend %robotoslab-thin;
+    background-color: #770ddb;
+    background-image: linear-gradient(to top left, #c845aa, #770ddb);
+    background-clip: text;
+    color: transparent;
+}
+
+.text-section {
+    @extend %robotoslab-regular;
+    @extend .cl-gray;
+    line-height: 1.5;
 }

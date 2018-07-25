@@ -31,20 +31,6 @@
         }
     }
 
-    .about-app {
-        @extend %robotoslab-light;
-        @extend .cl-gray-dark;
-        line-height: 1.5;
-    
-        .title {
-            @extend %robotoslab-thin;
-            background-color: #770ddb;
-            background-image: linear-gradient(to top left, #c845aa, #770ddb);
-            background-clip: text;
-            color: transparent;
-        }
-    }
-
     .about-video {
         @extend %robotoslab-regular;
         @extend .cl-gray;

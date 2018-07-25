@@ -1,0 +1,15 @@
+.box-features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .list-feature {
+        display: flex;
+        flex-direction: column;
+
+        .item {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
