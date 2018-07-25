@@ -1,0 +1,100 @@
+@import '../../scss/_deps';
+
+.about-section {
+    .about-icons {
+        .content {
+            box-shadow: 0 10px 20px lighten(map-get($colors, 'gray'), 45%);
+
+            .info {
+                display: flex;
+                margin-bottom: 35px;
+            }
+
+            .icon {
+                @extend .cl-transparent;
+                background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
+                background-clip: text;
+                padding: 5px 20px 0 0;
+            }
+
+            .info-description {
+                @extend %robotoslab-regular;
+                @extend .cl-gray;
+                line-height: 1.5;
+                
+                .title {
+                    @extend %robotoslab-light;
+                    @extend .cl-gray-dark;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .about-app {
+        @extend %robotoslab-light;
+        @extend .cl-gray-dark;
+        line-height: 1.5;
+    
+        .title {
+            @extend %robotoslab-thin;
+            background-color: #770ddb;
+            background-image: linear-gradient(to top left, #c845aa, #770ddb);
+            background-clip: text;
+            color: transparent;
+        }
+    }
+
+    .about-video {
+        @extend %robotoslab-regular;
+        @extend .cl-gray;
+        line-height: 1.5;
+
+        .title {
+            @extend %robotoslab-light;
+            @extend .cl-black;
+        }
+
+        .list-icon {
+            
+            .item {
+                line-height: 2;
+            }
+
+            .icon {
+                @extend .cl-transparent;
+                background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
+                background-clip: text;
+            }
+        }
+
+        .video-thumb {
+            .play-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                background-color: #770ddb;
+                background-image: linear-gradient(to top left, #c845aa, #770ddb);
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                top: 50%;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -50px;
+                transition: .5s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            .img-video-thumb {
+                border-radius: 5px;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

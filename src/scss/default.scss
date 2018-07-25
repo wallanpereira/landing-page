@@ -4,9 +4,7 @@
 //                             Tamanhos de Fontes
 //===============================================
 
-.text-extra-bigger {
-    font-size: 56px;
-}
+// TEXTOS
 
 .text-bigger {
     font-size: 20px;
@@ -27,6 +25,21 @@
 .text-smaller {
     font-size: 12px;
 }
+
+// TITULOS
+    
+.title-bigger {
+    font-size: 56px;
+}
+
+.title-big {
+    font-size: 42px;
+}
+
+.title-medium {
+    font-size: 28px;
+}
+
 
 //===============================================
 //                             Tamanhos de ícone
@@ -71,3 +84,11 @@
 //===============================================
 //                                         Button
 //===============================================
+
+.button-pattern {
+    @extend .cl-white;
+    background-image: linear-gradient(to top left, #c845aa, #770ddb);
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -16,7 +16,7 @@
     }
 
     .btn-app {
-        @extend .btn;
+        @extend .button-pattern;
         @extend .uppercase;
         border: 2px solid map-get($colors, 'white');
         padding: 12px 35px;
