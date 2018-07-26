@@ -1,0 +1,47 @@
+@import '../../scss/_deps';
+
+.plan-component {
+    background-image: url('../../img/bg.jpeg');
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .plans-content {
+
+        .background-plan {
+            @extend .bg-white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            border-radius: 10px;
+            font-weight: 1.5;
+            padding: 40px 0;
+
+            &:hover {
+                top: -10px;
+                transition: linear .6s;
+            }
+        }
+
+        .value-plan {
+            padding-top: 20px;
+        }
+
+        .list-unstyled {
+            @extend %robotoslab-light;
+            @extend .cl-gray-dark;
+            padding-top: 20px; 
+            line-height: 2.5;
+        }
+
+        .button-pattern {
+            margin-top: 15px;
+            width: 80%;
+            cursor: pointer;
+
+        }
+    }
+}

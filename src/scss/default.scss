@@ -88,7 +88,7 @@
 .button-pattern {
     @extend .cl-white;
     background-image: linear-gradient(to top left, #c845aa, #770ddb);
-    padding: 15px 40px;
+    padding: 15px 0;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -109,6 +109,18 @@
     @extend %robotoslab-regular;
     @extend .cl-gray;
     line-height: 1.5;
+}
+
+.title-plan {
+    @extend %robotoslab-regular;
+    background-color: #770ddb;
+    background-image: linear-gradient(to top left, #c845aa, #770ddb);
+    background-clip: text;
+    color: transparent;
+}
+
+.value-plan {
+    @extend .title-big;
 }
 
 //===============================================
