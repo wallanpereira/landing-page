@@ -110,3 +110,29 @@
     @extend .cl-gray;
     line-height: 1.5;
 }
+
+//===============================================
+//                                         ICONES
+//===============================================
+
+.icon {
+    @extend .cl-transparent;
+    background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
+    background-clip: text;
+}
+
+//===============================================
+//                                         ICONES
+//===============================================
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}

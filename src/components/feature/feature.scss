@@ -1,3 +1,5 @@
+@import '../../scss/_deps';
+
 .box-features {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +12,14 @@
         .item {
             display: flex;
             align-items: center;
+
+            .icon {
+                background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
+                padding: 20px;
+                border: 2px solid #770ddb;
+                border-radius: 10px;
+                margin: 0 20px;
+            }
         }
     }
 }

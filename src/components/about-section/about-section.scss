@@ -48,9 +48,7 @@
             }
 
             .icon {
-                @extend .cl-transparent;
-                background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
-                background-clip: text;
+                @extend .icon;
             }
         }
 
