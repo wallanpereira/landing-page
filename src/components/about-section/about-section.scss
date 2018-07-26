@@ -2,6 +2,10 @@
 
 .about-section {
     .about-icons {
+        @extend .bg-white;
+        top: -80px;
+        position: relative;
+
         .content {
             box-shadow: 0 10px 20px lighten(map-get($colors, 'gray'), 45%);
 

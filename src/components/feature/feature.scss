@@ -10,16 +10,31 @@
         flex-direction: column;
 
         .item {
+            @extend %robotoslab-light;
+            @extend .cl-gray-dark;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
+            line-height: 1.5;
+            margin-top: 30px;
 
-            .icon {
-                background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
-                padding: 20px;
-                border: 2px solid #770ddb;
-                border-radius: 10px;
-                margin: 0 20px;
+            .title {
+                margin-bottom: 5px;
             }
         }
     }
+
+    .text-right {
+        right: 50px;
+    }
+
+    .text-left {
+        left: 50px;
+    }
+
+    .center-feature {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
