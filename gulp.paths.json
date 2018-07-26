@@ -15,7 +15,8 @@
 		"css": {
             "files": [
 				"./src/scss/default.scss",
-                "./src/components/**/*.scss"
+				"./src/components/**/*.scss",
+				"./node_modules/swiper/dist/css/swiper.min.css"
             ],
             "all": [
                 "./src/scss/default.scss",
@@ -26,7 +27,8 @@
         },
 		"js": {
             "dependencies": [
-                "./node_modules/jquery/dist/jquery.min.js"
+                "./node_modules/jquery/dist/jquery.min.js",
+                "./node_modules/swiper/dist/js/swiper.jquery.min.js"
             ],
             "files": [
                 "./src/js/*.js",
