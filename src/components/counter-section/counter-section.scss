@@ -3,8 +3,11 @@
 .counter-section {
 
     .box-card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
 
-        &-counter {
+        .card-counter {
             border: 2px solid #6610f2;
         }
     }
