@@ -165,6 +165,12 @@
     background-clip: text;
 }
 
+.fab {
+    @extend .cl-white-bege;
+    // background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
+    background-clip: text;
+}
+
 .fa-times {
     @extend .cl-gray-dark;
 }
