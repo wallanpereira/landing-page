@@ -33,3 +33,9 @@ var swiper = new Swiper('.swiper-container', {
 //         });
 //     }
 // }).trigger("resize");
+
+// $(window).on('resize', function(){
+//     var win = $(this);
+//     if (win.hei)
+
+// })
