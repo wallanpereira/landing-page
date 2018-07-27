@@ -19,6 +19,7 @@
 
     .plans-content {
         margin-bottom: 30px;
+        padding: 15px;
 
         &:last-child {
             margin-bottom: 0;
@@ -37,7 +38,7 @@
             padding: 40px 0;
 
             &:hover {
-                top: -10px;
+                margin-top: -10px;
                 transition: linear .2s;
             }
         }
