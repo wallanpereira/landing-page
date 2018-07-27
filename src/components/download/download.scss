@@ -1,0 +1,33 @@
+@import '../../scss/_deps';
+
+.download-component {
+    display: block;
+    position: relative;
+
+    &:before {
+        content: '';
+        background-image: url('../../img/app.jpeg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        opacity: .2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .box-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo-store {
+        .img-logo {
+            width: 155px;
+        }
+    }
+}

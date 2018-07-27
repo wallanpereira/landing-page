@@ -5,10 +5,11 @@
     justify-content: center;
 
     .card-counter {
-        width: 250px;
+        width: 100%;
         height: 205px;
-        margin: 0 15px;
-        padding: 0;
+        min-width: 250px;
+        margin: 15px;
+        padding: 15px 0;
         box-shadow: 0 8px 20px lighten(map-get($colors, 'gray'), 45%);
 
         .box-info {
