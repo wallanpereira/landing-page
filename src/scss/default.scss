@@ -124,6 +124,10 @@
     @extend .title-big;
 }
 
+.line-trought {
+    text-decoration: line-through;
+}
+
 //===============================================
 //                                         ICONES
 //===============================================
@@ -152,6 +156,10 @@
         background-image: linear-gradient(to bottom right, #c845aa, #770ddb);
         background-clip: text;
     }
+}
+
+.fa-times {
+    @extend .cl-gray-dark;
 }
 
 //===============================================

@@ -1,1 +1,11 @@
 @import '../../scss/_deps';
+
+.counter-section {
+
+    .box-card {
+
+        &-counter {
+            border: 2px solid #6610f2;
+        }
+    }
+}

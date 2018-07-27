@@ -32,8 +32,8 @@
             padding: 40px 0;
 
             &:hover {
-                top: -10px;
-                transition: linear .6s;
+                margin-top: -10px;
+                transition: linear .2s;
             }
         }
 
@@ -46,6 +46,10 @@
             @extend .cl-gray-dark;
             padding-top: 20px; 
             line-height: 2.5;
+
+            .fas {
+                @extend .cl-gray-dark;
+            }
         }
 
         .button-pattern {
