@@ -1,18 +1,12 @@
-var swiper = new Swiper('.swiper-client', {
-    slidesPerView: 1,
+var swiperclient = new SwiperClient('.swiper-container', {
+    spaceBetween: 30,
+    centeredSlides: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
 });
-
-
-// var swiper = new Swiper('.swiper-container', {
-//     slidesPerView: 5,
-//     loop: true,
-//     spaceBetween: 30,
-//     pagination: {
-//         el: '.swiper-pagination',
-//         clickable: true
-//     }
-// });
