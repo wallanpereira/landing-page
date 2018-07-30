@@ -3,7 +3,7 @@ var swiper = new Swiper('.swiper-container', {
     loop: true,
     spaceBetween: 30,
     pagination: {
-        el: '.swiper-pagination',
+        el: '.swiper-paginationz',
         clickable: true
     }
 });
