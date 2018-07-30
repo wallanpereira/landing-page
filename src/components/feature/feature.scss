@@ -23,18 +23,14 @@
         }
     }
 
-    .text-right {
-        right: 50px;
-    }
-
-    .text-left {
-        left: 50px;
-    }
-
     .center-feature {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        .img-feature {
+            height: 460px;
+        }
     }
 }
 
