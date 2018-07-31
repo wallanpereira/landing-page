@@ -1,8 +1,9 @@
 @import '../../scss/_deps';
 .client-component {
     .swiper-testemonial {
-        max-width: 100%;
+        width: 100%;
         height: 60%;
+        overflow: hidden;
     }
     .swiper-slide {
         width: 100%;
