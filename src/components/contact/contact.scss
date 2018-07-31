@@ -1,0 +1,22 @@
+@import '../../scss/_deps';
+
+.contact-component {
+    @extend .bg-gray-light;
+
+    .media {
+        display: flex;
+        
+        .media-body {
+            @extend %robotoslab-light;
+            @extend .cl-gray-dark;
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+            line-height: 1.5;
+
+            .icon {
+                padding-right: 20px;
+            }
+        }
+    }
+}
