@@ -1,22 +1,40 @@
 @import '../../scss/_deps';
-.client-component {
+.clients {
     .swiper-testemonial {
-        width: 100%;
-        height: 60%;
-        overflow: hidden;
+        &.swiper-container-horizontal {
+            width: 100%;
+            overflow: hidden;
+        }
     }
     .swiper-slide {
         width: 100%;
         height: auto;
-    }
-    .client-cicle {
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-    }
-    .line {
-        background-color: map-get($colors, 'black');
-        width: 15px;
-        height: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .info-client {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            width: 60%;
+            .client-cicle {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+            }
+            .line {
+                background-color: map-get($colors, 'black');
+                width: 15px;
+                height: 1px;
+            }
+        }
     }
 }
+
+// Oculta conteudo extra 
+// .swiper-testemonial.swiper-container-horizontal {
+//     width: 100%;
+//     overflow: hidden;
+// }
