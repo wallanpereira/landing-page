@@ -1,12 +1,9 @@
-var swiperclient = new SwiperClient('.swiper-container', {
-    spaceBetween: 30,
-    centeredSlides: true,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+// $(document).ready(function () {
+var swiper = new Swiper('.swiper-testemonial', {
+    loop: true,
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.btn-next',
+        prevEl: '.btn-prev',
     },
 });
+// });
