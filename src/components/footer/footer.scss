@@ -1,0 +1,14 @@
+@import '../../scss/_deps';
+
+.footer {
+    @extend %robotoslab-light;
+
+    .fab {
+        padding: 0 12px;
+        font-size: 20px;
+
+        &:hover {
+            color: map-get($colors, 'blue');
+        }
+    }
+}
