@@ -1,15 +1,26 @@
 @import '../../scss/_deps';
 
-.menu-nav {
-    align-items: center;
-        
-    .list-items {
-        display: flex;
-        justify-content: space-between;
+.header-component {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
 
-        .nav-link {
-            @extend %robotoslab-thin;
-            color: map-get($colors, 'black');
+    .menu-nav {
+        align-items: center;
+
+        .list-items {
+            display: flex;
+            justify-content: space-between;
+
+            .nav-link {
+                @extend %robotoslab-light;
+                color: map-get($colors, 'white');
+            }
         }
-    }    
+    }
+
+    .img-logo {
+        width: 250px;
+    }
 }
