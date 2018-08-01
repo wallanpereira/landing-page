@@ -2,8 +2,11 @@
 var swiper = new Swiper('.swiper-testemonial', {
     loop: true,
     navigation: {
-        nextEl: '.btn-next',
-        prevEl: '.btn-prev',
+        nextEl: '.swiper-button-prev',
+        prevEl: '.swiper-button-next',
     },
+    autoplay: {
+        
+    }
 });
 // });
