@@ -1,33 +1,44 @@
 @import '../../scss/_deps';
+
 .clients {
+
     .swiper-testemonial {
+
         &.swiper-container-horizontal {
             width: 100%;
             overflow: hidden;
         }
     }
+
     .swiper-slide {
         width: 100%;
         height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
+
         .info-client {
+            @extend %robotoslab-light;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             text-align: center;
-            width: 60%;
+            width: 70%;
+            line-height: 2;
+
             .client-cicle {
                 border-radius: 50%;
                 width: 100px;
                 height: 100px;
+                margin-bottom: 15px;
             }
+
             .line {
                 background-color: map-get($colors, 'black');
-                width: 15px;
+                width: 10px;
                 height: 1px;
+                margin: 10px 0 2px 0;
             }
         }
     }
