@@ -1,0 +1,15 @@
+@import '../../scss/_deps';
+
+.menu-nav {
+    align-items: center;
+        
+    .list-items {
+        display: flex;
+        justify-content: space-between;
+
+        .nav-link {
+            @extend %robotoslab-thin;
+            color: map-get($colors, 'black');
+        }
+    }    
+}
