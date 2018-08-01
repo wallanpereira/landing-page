@@ -38,8 +38,15 @@
                 background-color: map-get($colors, 'black');
                 width: 10px;
                 height: 1px;
-                margin: 10px 0 2px 0;
+                margin: 10px 0 2px;
             }
+        }
+    }
+
+    .control {
+
+        .btn-control {
+            cursor: pointer;
         }
     }
 }

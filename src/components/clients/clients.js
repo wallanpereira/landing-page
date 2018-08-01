@@ -1,9 +1,9 @@
 // $(document).ready(function () {
-var swiper = new Swiper('.swiper-testemonial', {
+var cliswiper = new Swiper('.swiper-testemonial', {
     loop: true,
     navigation: {
-        nextEl: '.swiper-button-prev',
-        prevEl: '.swiper-button-next',
+        nextEl: '.swiper-slide-prev',
+        prevEl: '.btn-next',
     },
     autoplay: {
         
