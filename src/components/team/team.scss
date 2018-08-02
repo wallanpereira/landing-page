@@ -1,27 +1,21 @@
 @import '../../scss/_deps';
 
-.box-team {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+.team-expert {
+    position: relative;
+    width: 100%;
+
+    &:hover .team-info {
+        width: 100%;
+        height: 99%;
+        border-radius: 5px;;
+        top: 0;
+        left: 0;
+    }
 
     .img-team {
         width: 255px;
         height: 305px;
         border-radius: 5px;
-    }
-
-}
-
-.team-expert {
-    position: relative;
-
-    &:hover .team-info {
-        width: 100%;
-        height: 100%;
-        border-radius: 5px;;
-        top: 0;
-        left: 0;
     }
 }
 
