@@ -1,9 +1,9 @@
 jQuery(function (){
     jQuery(window).scroll(function (){
-        if (jQuery(this).scrollTop() > 100) {
-            $('.menu-nav').addClass("menu-nav-dif");
+        if (jQuery(this).scrollTop() > 40) {
+            $('.header-component').addClass("header-component-dif");
         } else {
-            $('.menu-nav').removeClass("menu-nav-dif");
+            $('.header-component').removeClass("header-component-dif");
         }
     });
 });
