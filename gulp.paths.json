@@ -30,7 +30,7 @@
             "dependencies": [
 				"./node_modules/jquery/dist/jquery.min.js",
                 "./node_modules/swiper/dist/js/swiper.jquery.min.js",
-                "./node_modules/modal-video/js/modal-video-min.js"
+                "./node_modules/modal-video/js/modal-video.min.js"
             ],
             "files": [
                 "./src/js/*.js",
