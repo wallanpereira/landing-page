@@ -2,18 +2,16 @@
 
 .app-component {
     background-image: linear-gradient(to top left, #c845aa, #770ddb);
-    // width: 100%;
-    height: 100%;
+    padding-bottom: 130px;
+    height: auto;
 
-    .box-content {
-        .description-app {
-            &.title-app {
-                @extend %robotoslab-thin;
-            }
+    .description-app {
+        &.title-app {
+            @extend %robotoslab-thin;
+        }
 
-            &.text-app {
-                line-height: 1.5;
-            }
+        &.text-app {
+            line-height: 1.5;
         }
     }
 
