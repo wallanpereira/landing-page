@@ -3,7 +3,7 @@
 .app-component {
     background-image: linear-gradient(to top left, #c845aa, #770ddb);
     // width: 100%;
-    height: 968px;
+    height: 100%;
 
     .box-content {
         .description-app {
@@ -31,17 +31,13 @@
         }
     }
 
-    // Particles
-    // canvas {
-    //     display: block;
-    //     vertical-align: bottom;
-    // }
+    /* ---- particles.js container ---- */
 
-    // #particles-js {
-    //     height: 100%;
-    //     width: 100%;
-    //     position: absolute;
-    //     left: 0;
-    //     top: 0;
-    // }
+    .particles-js {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }

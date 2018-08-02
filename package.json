@@ -34,7 +34,6 @@
         "postcss-cssnext": "^3.1.0",
         "run-sequence": "^2.2.1",
         "swiper": "^3.4.2",
-        "modal-video": "^2.4.2",
-        "particlesjs": "^2.2.2"
+        "modal-video": "^2.4.2"
     }
 }
