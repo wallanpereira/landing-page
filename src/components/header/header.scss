@@ -18,9 +18,37 @@
                 color: map-get($colors, 'white');
             }
         }
+
+        .box-logo {
+            .logo-color {
+                display: none;
+            }
+            .img-logo {
+                width: 250px;
+            }
+        }
     }
 
-    .img-logo {
-        width: 250px;
+    .menu-nav-dif {
+        align-items: center;
+
+        .list-items {
+            display: flex;
+            justify-content: space-between;
+
+            .nav-link {
+                @extend %robotoslab-light;
+                color: map-get($colors, 'black');
+            }
+        }
+
+        .box-logo {
+            .logo-white {
+                display: none;
+            }
+            .img-logo {
+                width: 250px;
+            }
+        }
     }
 }
