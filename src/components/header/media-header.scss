@@ -5,7 +5,7 @@
     }
 
     .btn-menu {
-        display: block !important nomprint;
+        display: block !important ;
         cursor: pointer;
         right: 0;
         position: absolute;
@@ -20,7 +20,8 @@
 
     .box-links {
         background-color: #fff;
-
+        display: none;
+        
         .list-items {
             flex-direction: column;
             position: relative;
@@ -33,6 +34,7 @@
 
                 &:last-child {
                     border-bottom: 0;
+                    padding-bottom: 20px;
                 }
 
                 .nav-link {

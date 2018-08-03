@@ -19,6 +19,7 @@
             .nav-link {
                 @extend %robotoslab-regular;
                 color: map-get($colors, 'white');
+                display: block;
             }
         }
 
@@ -41,44 +42,44 @@
 
 
 
-// .header-component-dif {
-//     position: fixed;
-//     background: map-get($colors, 'white');
-//     width: 100%;
-//     height: auto;
-//     z-index: 10;
-//     padding: 10px 0;
+.header-component-dif {
+    position: fixed;
+    background: map-get($colors, 'white');
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    padding: 10px 0;
 
-//     .menu-nav {
-//         align-items: center;
+    .menu-nav {
+        align-items: center;
 
-//         .list-items {
-//             display: flex;
-//             justify-content: space-between;
+        .list-items {
+            display: flex;
+            justify-content: space-between;
 
-//             .nav-link {
-//                 color: map-get($colors, 'black');
-//             }
-//         }
+            .nav-link {
+                color: map-get($colors, 'black');
+            }
+        }
 
-//         .box-logo {
+        .box-logo {
 
-//             .logo-color {
-//                 display: block;
-//             }
+            .logo-color {
+                display: block;
+            }
 
-//             .logo-white {
-//                 display: none;
-//             }
+            .logo-white {
+                display: none;
+            }
 
-//             .img-logo {
-//                 width: 250px;
-//             }
-//         }
-//     }
+            .img-logo {
+                width: 250px;
+            }
+        }
+    }
 
-//     .btn-menu {
-//         display: block;
-//         cursor: pointer;
-//     }
-// }
+    .btn-menu {
+        display: block;
+        cursor: pointer;
+    }
+}
