@@ -8,6 +8,8 @@
     padding: 30px 0;
 
     .menu-nav {
+        position: relative;
+        justify-content: space-between;
         align-items: center;
 
         .list-items {
@@ -31,41 +33,52 @@
             }
         }
     }
-}
 
-.header-component-dif {
-    position: fixed;
-    background: map-get($colors, 'white');
-    width: 100%;
-    height: auto;
-    z-index: 10;
-    padding: 10px 0;
-
-    .menu-nav {
-        align-items: center;
-
-        .list-items {
-            display: flex;
-            justify-content: space-between;
-
-            .nav-link {
-                color: map-get($colors, 'black');
-            }
-        }
-
-        .box-logo {
-
-            .logo-color {
-                display: block;
-            }
-
-            .logo-white {
-                display: none;
-            }
-
-            .img-logo {
-                width: 250px;
-            }
-        }
+    .btn-menu {
+        display: none;
     }
 }
+
+
+
+// .header-component-dif {
+//     position: fixed;
+//     background: map-get($colors, 'white');
+//     width: 100%;
+//     height: auto;
+//     z-index: 10;
+//     padding: 10px 0;
+
+//     .menu-nav {
+//         align-items: center;
+
+//         .list-items {
+//             display: flex;
+//             justify-content: space-between;
+
+//             .nav-link {
+//                 color: map-get($colors, 'black');
+//             }
+//         }
+
+//         .box-logo {
+
+//             .logo-color {
+//                 display: block;
+//             }
+
+//             .logo-white {
+//                 display: none;
+//             }
+
+//             .img-logo {
+//                 width: 250px;
+//             }
+//         }
+//     }
+
+//     .btn-menu {
+//         display: block;
+//         cursor: pointer;
+//     }
+// }
