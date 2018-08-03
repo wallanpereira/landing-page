@@ -21,7 +21,7 @@
     .box-links {
         background-color: #fff;
         display: none;
-        
+
         .list-items {
             flex-direction: column;
             position: relative;
@@ -42,5 +42,48 @@
                 }
             }
         }
+    }
+
+    .header-component {
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        height: auto;
+        z-index: 10;
+        padding: 10px 0;
+
+        .menu-nav {
+            align-items: center;
+
+            .list-items {
+                display: flex;
+                justify-content: space-between;
+
+                .nav-link {
+                    color: #000;
+                }
+            }
+
+            .box-logo {
+
+                .logo-color {
+                    display: block;
+                }
+
+                .logo-white {
+                    display: none;
+                }
+
+                .img-logo {
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 994px) {
+    .box-links {
+        display: block !important;
     }
 }

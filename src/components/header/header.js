@@ -1,36 +1,17 @@
-$('.btn-menu, .nav-link,').click(function () {
+$('.btn-menu, .nav-link').click(function () {
     $('.box-links').slideToggle();
 });
-$('.btn-menu, .item, .nav-link').mouseout(function(){
-    $('.box-links').slideToggle();
-})
 
+// On Scroll bg color Script
+$(document).ready(function () {
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 40) {
+            $('.header-component').addClass("header-component-dif");
+        }
 
-
-
-
-
-
-
-// jQuery(function () {
-//     jQuery(window).scroll(function () {
-//         if (jQuery(this).scrollTop() > 40) {
-//             $('.header-component').addClass("header-component-dif");
-//         } else {
-//             $('.header-component').removeClass("header-component-dif");
-//         }
-//     });
-// });
-
-$(window).resize(function () {
-    if (window.innerWidth < 990) {
-
-        // $('.btn-menu, .nav-link').click(function () {
-        //     $('.box-links').slideToggle();
-        // });
-
-        $('.header-component').addClass("header-component-dif");
-    } else {
-        $('.header-component').removeClass("header-component-dif");
-    }
-}).trigger("resize");
+        else {
+            $('.header-component').removeClass("header-component-dif");
+        }
+    })
+});
