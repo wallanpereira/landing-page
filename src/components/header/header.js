@@ -1,8 +1,4 @@
-$('.btn-menu, .nav-link').click(function () {
-    $('.box-links').slideToggle();
-});
-
-// On Scroll bg color Script
+// JQuery to header-component
 $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
@@ -13,5 +9,9 @@ $(document).ready(function () {
         else {
             $('.header-component').removeClass("header-component-dif");
         }
-    })
+    });
+
+    $('.btn-menu, .nav-link').click(function () {
+        $('.box-links').slideToggle();
+    });
 });
