@@ -2,11 +2,12 @@
 var cliswiper = new Swiper('.swiper-testemonial', {
     loop: true,
     navigation: {
-        nextEl: '.swiper-slide-prev',
-        prevEl: '.btn-next',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
-    autoplay: {
-        
-    }
 });
+// });
+
+// $('.btn-prev').click(function () {
+//     $('.top1').slideDown();
 // });
