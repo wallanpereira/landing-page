@@ -43,10 +43,21 @@
         }
     }
 
-    .control {
+    .btn-control {
+        cursor: pointer;
+    }
 
-        .btn-control {
-            cursor: pointer;
-        }
+    .teste {
+        padding-left: 200px;
+    }
+
+    .swiper-button-next {
+        position: relative;
+        display: contents;
+    }
+
+    .swiper-button-prev {
+        position: relative;
+        display: contents;
     }
 }

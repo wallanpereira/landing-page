@@ -2,7 +2,7 @@ $(document).ready(function() {
     var tela = $(window).width();
 
     if(tela < 992) {
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.app-screenshots-component .swiper-container', {
             slidesPerView: 2,
             loop: true,
             spaceBetween: 30,
@@ -12,7 +12,7 @@ $(document).ready(function() {
             }
         });
     } else {
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.app-screenshots-component .swiper-container', {
             slidesPerView: 5,
             loop: true,
             spaceBetween: 30,
@@ -29,7 +29,7 @@ $(window).resize(function() {
     var md = 800;
     
     if (win.width() < md) {
-       var swiper = new Swiper('.swiper-container', {
+       var swiper = new Swiper('.app-screenshots-component .swiper-container', {
            slidesPerView: 2,
            loop: true,
            spaceBetween: 30,
@@ -39,7 +39,7 @@ $(window).resize(function() {
            }
        });
     } else {
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.app-screenshots-component .swiper-container', {
             slidesPerView: 5,
             loop: true,
             spaceBetween: 30,

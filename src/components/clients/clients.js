@@ -1,13 +1,9 @@
-// $(document).ready(function () {
-var cliswiper = new Swiper('.swiper-testemonial', {
-    loop: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
+$(document).ready(function () {
+    var cliswiper = new Swiper('.clients .swiper-testemonial', {
+        loop: true,
+        reventClicks: false,
+        preventClicksPropagation: false,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
 });
-// });
-
-// $('.btn-prev').click(function () {
-//     $('.top1').slideDown();
-// });
