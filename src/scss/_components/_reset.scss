@@ -11,6 +11,10 @@ body {
     font-family: 'robotoslab-thin';
 }
 
+.scroll-container {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style: none
 }

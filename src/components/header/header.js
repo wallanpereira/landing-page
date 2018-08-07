@@ -5,9 +5,9 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll > 40) {
-            $('.header-component').addClass("header-component-dif");
+            $('.header-component').addClass("scroll-top");
         } else {
-            $('.header-component').removeClass("header-component-dif");
+            $('.header-component').removeClass("scroll-top");
         }
     });
 
@@ -27,4 +27,18 @@ $(window).resize(function () {
             $('.box-links').slideToggle();
         });
     }
-})
+});
+
+// Scroll sections between
+$('a[href*="#"]:not([href="#"])').click(function () {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top - 20
+            }, 700);
+            return false;
+        }
+    }
+});

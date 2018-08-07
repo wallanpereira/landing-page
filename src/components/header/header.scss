@@ -31,7 +31,7 @@
         .list-items {
             display: flex;
             justify-content: space-between;
-
+            
             .nav-link {
                 @extend %robotoslab-regular;
                 color: map-get($colors, 'white');
@@ -41,7 +41,7 @@
     }
 }
 
-.header-component-dif {
+.scroll-top {
     background: map-get($colors, 'white');
     padding: 10px 0;
 
