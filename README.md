@@ -15,13 +15,20 @@ Caso use Linux, e fique com erro com node-gyp e nonde-sass.
 
 Link: https://www.python.org/downloads/
 
-2 - Instale: npm install -g node-gyp-install
+2 - Instale o nodejs 8.16
 
+3 - Instale: npm install -g node-gyp-install
+
+4 - Instale dependências do projeto: npm i -D
+
+5 - Inicie o projeto: gulp
+
+///////////////////////////////////////////////////////////////////////////////
 Link: https://github.com/nodejs/node-gyp
 ou
 Link: https://www.npmjs.com/package/node-gyp-install
 
-3 - Execute os comando abaixo para limpa o cache e remove bugs.
+ - Execute os comando abaixo para limpa o cache e remove bugs.
 
 Link: https://github.com/sass/node-sass/issues/2562
 
