@@ -17,7 +17,7 @@ Link: https://www.python.org/downloads/
 
 2 - Instale o nodejs 8.16
 
-3 - Instale: npm install -g node-gyp-install
+3 - Instale: npm install -g gulp-cli sass node-sass node-gyp-install 
 
 4 - Instale dependências do projeto: npm i -D
 
