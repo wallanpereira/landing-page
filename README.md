@@ -23,7 +23,7 @@ Link: https://www.python.org/downloads/
 
 5 - Inicie o projeto: gulp
 
-///////////////////////////////////////////////////////////////////////////////
+
 Link: https://github.com/nodejs/node-gyp
 ou
 Link: https://www.npmjs.com/package/node-gyp-install
