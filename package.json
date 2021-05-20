@@ -14,7 +14,7 @@
         "gulp": "^4.0.2",
         "gulp-babel": "^7.0.1",
         "gulp-cached": "^1.1.1",
-        "gulp-clean-css": "^3.9.4",
+        "gulp-clean-css": "^4.3.0",
         "gulp-concat": "^2.6.1",
         "gulp-file-include": "^2.0.1",
         "gulp-flatten": "^0.4.0",
